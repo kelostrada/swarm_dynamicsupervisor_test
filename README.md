@@ -1,21 +1,10 @@
 # SwarmSupervisorTest
 
-**TODO: Add description**
+Example project to test `Swarm.DynamicSupervisor` - https://github.com/kelostrada/swarm_dynamic_supervisor
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `swarm_supervisor_test` to your list of dependencies in `mix.exs`:
+To test supervisor run:
 
 ```elixir
-def deps do
-  [
-    {:swarm_supervisor_test, "~> 0.1.0"}
-  ]
-end
+MyApp.ExampleUsage.start_worker(:test)
+MyApp.ExampleUsage.crash(:test)
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/swarm_supervisor_test](https://hexdocs.pm/swarm_supervisor_test).
-
